@@ -60,7 +60,7 @@ a:hover{
 .menu{
     background-color: white;
     position: absolute;
-    visibility: hidden;
+    display: none;
     border-radius: 5px;
     z-index: 2;
     box-sizing: border-box;
