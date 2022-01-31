@@ -3,7 +3,7 @@
     if (!isset($_SESSION['login']) || !isset($_SESSION['psswd'])) {
         header('location: login/index.php');
     }
-    $file = $_GET['file'];
+    $file = $_GET['name'];
     echo '<pre>';
     $lines = file($file);
     foreach($lines as $line_num => $line) {
